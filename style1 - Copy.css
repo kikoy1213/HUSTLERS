@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: url("billiards.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+marquee {
+    background-color: #e60000;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 0;
+    font-size: 14px;
+   }
+
+header {
+    background: linear-gradient(to right, #A60D0D, #474747, black, #1E0761);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav {
+    background-color: #000000;
+    text-align: left;
+    padding: 14px 25px;
+    border-bottom: 2px solid #222222;
+}
+
+nav a {
+    color: #ffffff;
+    margin-right: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #6AFF61;
+}
+
+/* Main Content Containers (#0F0E0D with Soft Corners & Generous Padding) */
+section, .intro-container {
+    background-color: #0F0E0D;
+    color: #ffffff;
+    margin: 35px auto;
+    width: 85%;
+    max-width: 1000px;
+    padding: 35px 40px;
+    border-radius: 16px;
+}
+
+/* Headings */
+h1 {
+    color: #6AFF61;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #6AFF61;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #ffffff;
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Event & Feature Cards */
+.intro {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.intro h2 {
+    color: #6AFF61;
+    font-size: 32px;
+}
+
+.mission {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.box {
+    flex: 1;
+    border: 1px solid #262422;
+    background-color: #161514;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px 40px 50px;
+}
+
+.service-card {
+    width: 260px;
+    text-align: center;
+    border: 1px solid #262422;
+    background-color: #161514;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.contact {
+    background-color: #161514;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+.event {
+    border: 1px solid #262422;
+    background-color: #161514;
+    padding: 20px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+}
+
+/* Button Styling */
+.button {
+    background-color: #1b5e20;
+    color: #ffffff;
+    padding: 12px 24px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #2e7d32;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: #aaaaaa;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
